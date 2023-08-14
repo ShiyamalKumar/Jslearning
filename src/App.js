@@ -6,16 +6,16 @@ import Counter from './components/counter';
 import Goal from './components/Goal';
 import Car from './components/Car';
 import Football from './components/Football'
-import ExpenseTracker from './components/ExpenseTracker';
+
 function App() {
   return (
     <div className="App">
-      {/* <Greet />
+      <Greet />
       <Hello />
       <Counter />
-      <Goal /> */}
-      {/* <Car /> */}
-      {/* <Football /> */}
+      <Goal />
+      <Car />
+      <Football />
 <ExpenseTracker/>
     </div>
 
