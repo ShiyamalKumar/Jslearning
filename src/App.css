@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,52 +35,90 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
+/* expense tracker   */
+
 body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-}
+  background-color: #282c34;
+  color: #fff;
+ }
 
 h1 {
   text-align: center;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.maininput
+{
+background: #8f66e8;
+color:#fff;
+margin: 50px;
+border-radius: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.inputs
+{
+  position: relative;
+  right: -50px;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  width: 20%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  
+}
+.submitbutton
+{
+  display:flex;
+}
+
+
+button {
+  background-color: #2b0c60;
+  color: white;
+   padding: 10px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  border-radius: 10px;
+}
+
+
+.tablemain
+{
+  background: #8f66e8;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
   margin-top: 20px;
 }
 
-input {
-  width: 100%;
+th, td {
+  text-align: center;
   padding: 10px;
-  margin-bottom: 10px;
   border: 1px solid #ccc;
 }
 
-button {
-  background-color: #0088cc;
+.delete-button {
+  background-color: #d9534f;
   color: white;
   padding: 10px;
   border: none;
   cursor: pointer;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
+.expense-tracker {
+  max-width: 500px;
+  margin: 0 auto;
 }
 
-th, td {
-  padding: 10px;
-  border: 1px solid #ccc;
-}
-
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-button:hover {
-  background-color: #0077bb;
-}
-
-.delete-button {
-  background-color: red;
-}
 
